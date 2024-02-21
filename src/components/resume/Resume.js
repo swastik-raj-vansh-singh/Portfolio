@@ -23,7 +23,7 @@ const Resume = () => {
             />
         </div>
         <div>
-            <ul className='w-full grid grid-cols-4'>
+            <ul className='w-full grid  grid-col-1 md:grid-col-2 xl:grid-cols-4'>
                 <li onClick={()=> 
                   setEducationdata(true) & 
                   setAchievementdata(false) & 
