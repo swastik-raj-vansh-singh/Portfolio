@@ -1,5 +1,5 @@
 import React from 'react'
-// import {logo} from "../../assets/index"
+import {logo} from "../../assets/index"
 import { Link } from 'react-scroll'
 import { navLinksdata } from '../../constants'
 
@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <div className='w-full h-24 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 '>
         <div>
-            {/* <img src={logo} alt="logo"/> */}
-            PORTFOLIO
+            <img className="w-32" src={logo} alt="logo"/>
+  
         </div>
 
         <div>
