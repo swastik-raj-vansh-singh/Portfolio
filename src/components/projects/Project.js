@@ -16,42 +16,43 @@ const Projects = () => {
             />
         </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+            <a href = "https://www.geeksforgeeks.org/html-a-tag/"> 
+                <ProjectCard    
+                title="SPOTIFY CLONE "
+                des=" Developed a complete music streaming application from scratch, replicating the popular
+                features and functionalities of Spotify"
+                src={projectOne}
+                />
+            </a> 
             <ProjectCard
-            title="SOCIAL MEDIA CLONE"
+            title="AI SaaS Platform - AskMe"
+            des=" Developed a state-of-the-art AI SaaS Platform with five AI tools - Conversation AI API, Code Generation AI, Image Generation AI, Nlusic Generation AI, Video Generation AI along with a Stripe subscription system"
+            src={projectTwo}
+            />
+            <ProjectCard
+            title="To-Do List"
+            des=" Developed a responsive front-end for TO-DO list website where you can add new tasks, remove done tasks and edit existing tasks."
+            src={projectThree}
+            />
+            {/* <ProjectCard
+            title="Mars Rover"
+            des=" Made a Rover to detect life on Mars for IRC 2()23. I was responsible for writing the code
+            using Arduino, and research of mechanics of the rover. I also did research on how we
+            can detect living organisms in soil for the rover to detect."
+            src={projectThree}
+            /> */}
+            {/* <ProjectCard
+            title="E-commerce Website"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectOne}
             />
             <ProjectCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
-            />
-            <ProjectCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
-            />
-            <ProjectCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
-            />
-            <ProjectCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
-            />
-            <ProjectCard
             title="Chatting App"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectTwo}
-            />
+            /> */}
         </div>
         
     </section>

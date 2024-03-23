@@ -11,16 +11,15 @@ const ContactLeft = () => {
       alt="contaact img"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Swastik Raj Vansh singh</h3>
+        <h3 className="text-3xl font-bold text-white">Swastik Raj Vansh Singh</h3>
         <p className="text-lg font-normal text-gray-400">
-        Front-End Developer
+        Web Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-        ipsam autem cumque, accusantium dicta odio.
+        I would really love to connect with you, ping me if you liked my work or have any feedback!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-        Phone: <span className="text-lightText">+91 7889364915</span>
+        Phone: <span className="text-lightText">+91-7889364915</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
         Email: <span className="text-lightText">swastikrajvanshsingh0@gmail.com</span>
@@ -28,7 +27,7 @@ const ContactLeft = () => {
       </div>
 
        <div className="flex flex-col gap-4">
-            <h2 className="text-base uppercase font-titleFont mb-4">Find me in </h2>
+            <h2 className="text-base uppercase font-titleFont mb-4">Find me on </h2>
             <div className="flex gap-4">
                 <span className="bannerIcon">
                 <FaFacebookF />

@@ -7,7 +7,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 
 const LeftBanner = () => {
     const [text] =useTypewriter({
-        words : ["professional coder." ,"Full Stack Developer.","UI Desihner"],
+        words : ["Coder." ,"Full Stack Developer.", "AI Enthusiast"],
         loop:true,
         typeSpeed:20,
         deleteSpeed : 10,
@@ -18,7 +18,7 @@ const LeftBanner = () => {
     <div className='flex flex-col gap-5'>
        <h4 className='text-lg font-normal capitalize'>Welcome to my world</h4>
         <h1 className='text-5xl font-bold text-white' >
-           Hi, I'am { }
+           Hi, I'm { }
         <span className='text-designColor capitalize'> Swastik Raj Vansh Singh</span>
         </h1>
         <h2 className='text-4xl font-bold text-white'>
@@ -30,9 +30,7 @@ const LeftBanner = () => {
             cursorColor='#ff014f'
             />
         </h2>
-        <p>I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        <p>I am seeking work opportunities with a dynamic organization that offers personal and professional development. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools. I have experience in full stack development and have worked on 3 projects.
         </p>
     </div>
 

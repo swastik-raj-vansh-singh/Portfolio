@@ -11,11 +11,11 @@ const Skills = () => {
       <div className='w-full lgl:w-1/2'>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">Features</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Design Skills</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Web Development Skills</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full flex flex-col gap-6">
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>React</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -28,7 +28,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>JavaScript</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -41,7 +41,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>NextJS</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -54,7 +54,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>Prisma</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -67,7 +67,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>Tailwind</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -86,11 +86,11 @@ const Skills = () => {
       <div className='w-full lgl:w-1/2'>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">Features</p>
-          <h2 className="text-4xl md:text-4xl font-bold">Development Skills</h2>
+          <h2 className="text-4xl md:text-4xl font-bold">Development Skills & Tools</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full flex flex-col gap-6">
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>C++</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -103,7 +103,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>Python</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -116,7 +116,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>Git</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -129,7 +129,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>Arduino</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
@@ -142,7 +142,7 @@ const Skills = () => {
           </div>
 
           <div className='overflow-x-hidden'>
-            <p className='text-sm uppercase font-medium'>Photoshop</p>
+            <p className='text-sm uppercase font-medium'>OpenAI</p>
             <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
               <motion.span 
                 initial={{ x: "-100%", opacity: 0 }}
