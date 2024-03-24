@@ -18,12 +18,12 @@ const Education = () => {
             result="8.4/10"
             // des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
-          {/* <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          /> */}
+          <ResumeCard
+            title="Schooling "
+            subTitle="BSF Sr Sec School Jammu"
+            result="2009 - 2020"
+            des=""
+          />
           </div>
         </div>
       </div>

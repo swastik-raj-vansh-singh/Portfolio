@@ -24,23 +24,27 @@ const Projects = () => {
                 src={projectOne}
                 />
             </a> 
+            <a href= "https://ask-me-mrog.vercel.app/">
             <ProjectCard
-            title="AI SaaS Platform - AskMe"
+            title="AskMe"
             des=" Developed a state-of-the-art AI SaaS Platform with five AI tools - Conversation AI API, Code Generation AI, Image Generation AI, Nlusic Generation AI, Video Generation AI along with a Stripe subscription system"
             src={projectTwo}
             />
-            <ProjectCard
+            </a>
+            {/* <ProjectCard
             title="To-Do List"
             des=" Developed a responsive front-end for TO-DO list website where you can add new tasks, remove done tasks and edit existing tasks."
             src={projectThree}
-            />
-            {/* <ProjectCard
+            /> */}
+            <a href="https://my-to-do-listy.netlify.app/">
+            <ProjectCard
             title="Mars Rover"
             des=" Made a Rover to detect life on Mars for IRC 2()23. I was responsible for writing the code
             using Arduino, and research of mechanics of the rover. I also did research on how we
             can detect living organisms in soil for the rover to detect."
             src={projectThree}
-            /> */}
+            />
+            </a>
             {/* <ProjectCard
             title="E-commerce Website"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.

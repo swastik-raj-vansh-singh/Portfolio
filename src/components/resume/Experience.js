@@ -32,7 +32,7 @@ const Experience = () => {
           <ResumeCard
             title="DevTown Full Stack Web Development"
             des="Completed DevTown Full Stack Web Development"
-            result="5.00/5"
+            // result="5.00/5"
             // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>

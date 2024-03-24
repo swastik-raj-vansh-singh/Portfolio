@@ -1,8 +1,10 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import {FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss,  SiNextdotjs } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
+import {BsGithub} from "react-icons/bs";
+import { FaFileCode } from "react-icons/fa";
 
 
 const LeftBanner = () => {
@@ -40,15 +42,19 @@ const LeftBanner = () => {
             Find Me in
           </h2>
           <div className='flex gap-4'>
-            <span className='bannerIcon'>
-              <FaFacebookF/>
-            </span>
-            <span className='bannerIcon'>
-              <FaTwitter/>
-            </span>
-            <span className='bannerIcon'>
+            <a href='https://www.linkedin.com/in/swastikrajvanshsingh/'>
+              <span className='bannerIcon'>
               <FaLinkedinIn/> 
             </span>
+            </a>
+            <a href='https://github.com/swastik-raj-vansh-singh'><span className='bannerIcon'>
+              <BsGithub />
+            </span>
+            </a>
+            <a href='https://drive.google.com/file/d/1vSEaQKarW6U8H7wLCMJfJbeYRiVhxcS0/view?usp=drive_link'><span className='bannerIcon'>
+              <FaFileCode />
+            </span>
+            </a>
           </div>
         </div>
 
