@@ -5,8 +5,8 @@ import Features from "./components/features/Features";
 import Projects from "./components/projects/Project";
 import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-import FooterBottom from "./components/footer/FooterBottom";
+// import Footer from "./components/footer/Footer";
+// import FooterBottom from "./components/footer/FooterBottom";
 
 
 
