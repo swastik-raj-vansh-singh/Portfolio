@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectCard from './ProjectCard'
-import {projectOne ,projectTwo, projectThree} from '../../assets/index'
+import {projectOne ,projectTwo} from '../../assets/index'
 
 const Projects = () => {
   return (
@@ -42,7 +42,7 @@ const Projects = () => {
             des=" Made a Rover to detect life on Mars for IRC 2()23. I was responsible for writing the code
             using Arduino, and research of mechanics of the rover. I also did research on how we
             can detect living organisms in soil for the rover to detect."
-            src={projectThree}
+            src={projectTwo}
             />
             </a>
             {/* <ProjectCard
