@@ -38,10 +38,8 @@ const Projects = () => {
             /> */}
             <a href="https://my-to-do-listy.netlify.app/">
             <ProjectCard
-            title="Mars Rover"
-            des=" Made a Rover to detect life on Mars for IRC 2()23. I was responsible for writing the code
-            using Arduino, and research of mechanics of the rover. I also did research on how we
-            can detect living organisms in soil for the rover to detect."
+            title="To-Do List"
+            des=" Developed a responsive front-end for TO-DO list website where you can add new tasks, remove done tasks and edit existing tasks."
             src={projectThree}
             />
             </a>
