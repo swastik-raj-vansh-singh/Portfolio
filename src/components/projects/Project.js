@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectCard from './ProjectCard'
-import {projectOne ,projectTwo, projectThree} from '../../assets/index'
+import {projectOne ,projectTwo, projectThree, projectFour, projectFive} from '../../assets/index'
 
 const Projects = () => {
   return (
@@ -17,44 +17,49 @@ const Projects = () => {
         </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
             <a href = "https://www.geeksforgeeks.org/html-a-tag/"> 
-                <ProjectCard    
+             <ProjectCard    
                 title="SPOTIFY CLONE "
                 des=" Developed a complete music streaming application from scratch, replicating the popular
                 features and functionalities of Spotify"
                 src={projectOne}
-                />
+            />
             </a> 
             <a href= "https://ask-me-mrog.vercel.app/">
             <ProjectCard
-            title="AskMe"
-            des=" Developed a state-of-the-art AI SaaS Platform with five AI tools - Conversation AI API, Code Generation AI, Image Generation AI, Nlusic Generation AI, Video Generation AI along with a Stripe subscription system"
-            src={projectTwo}
+                title="AskMe"
+                des=" Developed a state-of-the-art AI SaaS Platform with five AI tools - Conversation AI API, Code Generation AI, Image Generation AI, Nlusic Generation AI, Video Generation AI along with a Stripe subscription system"
+                src={projectTwo}
             />
             </a>
-            {/* <ProjectCard
-            title="To-Do List"
-            des=" Developed a responsive front-end for TO-DO list website where you can add new tasks, remove done tasks and edit existing tasks."
-            src={projectThree}
-            /> */}
-            <a href="https://my-to-do-listy.netlify.app/">
+
+            <a href= " https://github.com/swastik-raj-vansh-singh/Diabetes-detection">
             <ProjectCard
-            title="To-Do List"
-            des=" Developed a responsive front-end for TO-DO list website where you can add new tasks, remove done tasks and edit existing tasks."
-            src={projectThree}
+                title="Diabetes Detection"
+                des=" Built an ensemble Machine learning classification model for detecting Diabetes and normal HRV
+                    signals in women using medical data."
+                src={projectFour}
             />
             </a>
-            {/* <ProjectCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
-            />
+            
+            <a href= "https://github.com/swastik-raj-vansh-singh/Stock-Detection/blob/main/stock_prediction.ipynb">
             <ProjectCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
-            /> */}
+                title="Stock prediction"
+                des=" Developed an ensemble machine learning classification model to predict stock prices using 
+                dataset from Quandl."
+                src={projectThree}
+            />
+            </a>
+
+            <a href= "https://github.com/swastik-raj-vansh-singh/speech-emotion-detection"> 
+            <ProjectCard
+                title="Emotion Detection"
+                
+                des=" Built a deep learning project that detects emotion from speech using spectrogram of
+                the sound clips using convolutional neural network from scratch and resnet50. Also Deployed
+                the model using Hugging face’s gradio to detect speech emotion in real time."
+                src={projectFive}
+            />
+             </a>
         </div>
         
     </section>
