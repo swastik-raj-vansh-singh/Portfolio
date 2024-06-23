@@ -51,7 +51,7 @@ const LeftBanner = () => {
               <BsGithub />
             </span>
             </a>
-            <a href='https://drive.google.com/file/d/1vSEaQKarW6U8H7wLCMJfJbeYRiVhxcS0/view?usp=drive_link'><span className='bannerIcon'>
+            <a href='https://drive.google.com/file/d/1dcNvV0yk_90Oh3gwKuP8yTpQximpQiCk/view'><span className='bannerIcon'>
               <FaFileCode />
             </span>
             </a>

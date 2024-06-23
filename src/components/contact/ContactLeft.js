@@ -1,7 +1,8 @@
 import React from 'react'
 import { contactImg } from '../../assets/index';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-
+import { FaLinkedinIn } from "react-icons/fa";
+import {BsGithub} from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
 
 const ContactLeft = () => {
   return (
@@ -29,15 +30,19 @@ const ContactLeft = () => {
        <div className="flex flex-col gap-4">
             <h2 className="text-base uppercase font-titleFont mb-4">Find me on </h2>
             <div className="flex gap-4">
-                <span className="bannerIcon">
-                <FaFacebookF />
-                </span>
-                <span className="bannerIcon">
-                <FaTwitter />
-                </span>
-                <span className="bannerIcon">
-                <FaLinkedinIn />
-                </span>
+            <a href='https://github.com/swastik-raj-vansh-singh'><span className='bannerIcon'>
+              <BsGithub />
+            </span>
+            </a>
+            <a href='https://drive.google.com/file/d/1dcNvV0yk_90Oh3gwKuP8yTpQximpQiCk/view'><span className='bannerIcon'>
+              <FaLinkedinIn />
+            </span>
+            </a>
+
+            <a href='https://www.instagram.com/swastikrajvanshsingh/'><span className='bannerIcon'>
+              <FaInstagram />
+            </span>
+            </a>
             </div>
         </div>
 

@@ -35,8 +35,7 @@ const Projects = () => {
             <a href= " https://github.com/swastik-raj-vansh-singh/Diabetes-detection">
             <ProjectCard
                 title="Diabetes Detection"
-                des=" Built an ensemble Machine learning classification model for detecting Diabetes and normal HRV
-                    signals in women using medical data."
+                des=" Developed a sophisticated ensemble machine learning classification model to detect diabetes and analyze normal HRV signals in women, utilizing comprehensive medical data for enhanced accuracy."
                 src={projectFour}
             />
             </a>
@@ -44,8 +43,7 @@ const Projects = () => {
             <a href= "https://github.com/swastik-raj-vansh-singh/Stock-Detection/blob/main/stock_prediction.ipynb">
             <ProjectCard
                 title="Stock prediction"
-                des=" Developed an ensemble machine learning classification model to predict stock prices using 
-                dataset from Quandl."
+                des=" Developed a robust and high-accuracy ensemble machine learning model to predict stock prices, leveraging comprehensive datasets from Quandl for precise and reliable forecasting."
                 src={projectThree}
             />
             </a>
@@ -55,7 +53,7 @@ const Projects = () => {
                 title="Emotion Detection"
                 
                 des=" Built a deep learning project that detects emotion from speech using spectrogram of
-                the sound clips using convolutional neural network from scratch and resnet50. Also Deployed
+                the sound clips using convolutional neural network from scratch. Also Deployed
                 the model using Hugging face’s gradio to detect speech emotion in real time."
                 src={projectFive}
             />
