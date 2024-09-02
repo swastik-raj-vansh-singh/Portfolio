@@ -16,7 +16,7 @@ const Projects = () => {
             />
         </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-            <a href = "https://www.geeksforgeeks.org/html-a-tag/"> 
+            <a href = "https://spotify-clone-dusky-chi.vercel.app/"> 
              <ProjectCard    
                 title="SPOTIFY CLONE "
                 des=" Developed a complete music streaming application from scratch, replicating the popular
