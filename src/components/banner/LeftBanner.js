@@ -1,22 +1,22 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import {FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss,  SiNextdotjs } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
-import {BsGithub} from "react-icons/bs";
+import {FaLinkedinIn, FaPython } from "react-icons/fa";
+import { SiTensorflow, SiPytorch, SiScikitlearn, SiJupyter } from "react-icons/si";
+import { BsGithub} from "react-icons/bs";
 import { FaFileCode } from "react-icons/fa";
+import { TbBrandOpenai } from "react-icons/tb";
 
 
 const LeftBanner = () => {
     const [text] =useTypewriter({
-        words : ["Coder." ,"Full Stack Developer.", "AI Enthusiast"],
+        words : ["Coder." ,"Data Scientist.","Machine Learner Developer.", "AI Enthusiast"],
         loop:true,
         typeSpeed:20,
         deleteSpeed : 10,
         delaySpeed :2000,
       })  ;
   return (
-    <div className='w-full lgl:w-[60%] flex flex-col lgl:p-6 gap-2'>
+    <div className='w-full lgl:w-[75%] flex flex-col lgl:p-6 gap-5'>
     <div className='flex flex-col gap-5'>
        <h4 className='text-lg font-normal capitalize'>Welcome to my world</h4>
         <h1 className='text-5xl font-bold text-white' >
@@ -36,10 +36,10 @@ const LeftBanner = () => {
         </p>
     </div>
 
-    <div className=' flex  flex-col xl:flex-row gap-6 lgl:gap-0 justify-between'>
+    <div className='flex flex-col xl:flex-row gap-10 lgl:gap-20 justify-between mt-6'>
         <div>
-          <h2 className='text-base uppercase font-titleFont mb-4'>
-            Find Me in
+          <h2 className='text-base uppercase font-titleFont mb-5 tracking-wider'>
+            FIND ME IN
           </h2>
           <div className='flex gap-4'>
             <a href='https://www.linkedin.com/in/swastikrajvanshsingh/'>
@@ -51,7 +51,7 @@ const LeftBanner = () => {
               <BsGithub />
             </span>
             </a>
-            <a href='https://drive.google.com/file/d/1dcNvV0yk_90Oh3gwKuP8yTpQximpQiCk/view'><span className='bannerIcon'>
+            <a href='https://drive.google.com/file/d/1ejniDUhnaneSlDC-ekDPBfDNQ2zS77ol/view?usp=drive_link'><span className='bannerIcon'>
               <FaFileCode />
             </span>
             </a>
@@ -60,21 +60,21 @@ const LeftBanner = () => {
 
         <div>      
           <div>
-              <h2 className="text-base uppercase font-titleFont mb-4">
+              <h2 className="text-base uppercase font-titleFont mb-5 tracking-wider">
                 BEST SKILL ON
               </h2>
               <div className="flex gap-4">
                 <span className="bannerIcon">
-                  <FaReact />
+                  <FaPython />
                 </span>
                 <span className="bannerIcon">
-                  <SiNextdotjs />
+                  <SiTensorflow />
                 </span>
                 <span className="bannerIcon">
-                  <SiTailwindcss />
+                  <SiScikitlearn />
                 </span>
                 <span className="bannerIcon">
-                <TbBrandJavascript />
+                  <TbBrandOpenai />
                 </span>
               </div>
             </div>

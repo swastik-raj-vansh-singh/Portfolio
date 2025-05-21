@@ -1,29 +1,29 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
+import { FaMobile, FaGlobe, FaLaptopCode, FaDatabase, FaPython } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
-import { FaLaptopCode } from "react-icons/fa";
 import { GiArtificialIntelligence } from "react-icons/gi";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    icon: <FaGlobe />,
-    title: "Web Development",
-    des: "I use React, JavaScript, Node for developing interactive websites.",
+    icon: <FaDatabase />,
+    title: "Data Science",
+    des: "I work with data to extract insights using Python libraries like Pandas, NumPy, and Matplotlib.",
   },
   {
     id: 2,
-    icon: <FaLaptopCode />,
-    title: "DSA",
-    des: "I have solved many DSA problems in C++. I am also proficient in Python.",
+    icon: <FaPython />,
+    title: "Python Programming",
+    des: "Proficient in Python for scripting, data wrangling, and automation in data-driven projects.",
   },
   {
     id: 3,
     icon: <GiArtificialIntelligence />,
-    title: "ML/DL",
-    des: "I am learning about various machine learning and deep learning techniques.",
+    title: "Machine Learning",
+    des: "I build and experiment with ML/DL models using Scikit-learn, TensorFlow, and PyTorch.",
   },
+
   // {
   //   id: 4,
   //   icon: <FaMobile />,

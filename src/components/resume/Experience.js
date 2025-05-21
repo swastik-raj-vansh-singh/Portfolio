@@ -10,30 +10,30 @@ const Experience = () => {
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
-        {/* <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
-        </div> */}
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2023 - Present</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Professional Experience</h2>
+        </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="JP Morgan Chase & Co - Software Engineering Job Simulation"
-            des="Interface with a stock price data feed by using JPMorgan Chase & Co. frameworks and tools"
-            // result="3.90/4"
-            // des="Interface with a stock price data feed by using JPMorgan Chase & Co. frameworks and tools"
+            title="AI Intern"
+            subTitle="Attyeb Tech Private Limited | Feb 2023 - Present"
+            result="Bangalore"
+            des="Writing efficient, production-grade SQL queries to support executive dashboards and marketing analytics; standardizing data pipelines, enforcing schema consistency, and implementing query linting for maintainability. Building and deploying an NLP-driven query system using spaCy and Deep Learning to interpret natural language questions and fetch real-time insights from data warehouses."
           />
           <ResumeCard
-            title="Mars Rover"
-            des="Made a Rover to detect life on Mars for IRC 2()23. I was responsible for writing the code
-            using Arduino, and research of mechanics of the rover. I also did research on how we
-            can detect living organisms in soil for the rover to detect."
-            // result="4.75/5"
-            // des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Machine Learning Intern"
+            subTitle="Nala Green Tech | Aug 2024 - January 2025"
+            result="Certificate"
+            des="Developed a smart, frictionless retail experience designed to reduce environmental impact by minimizing physical infrastructure and paper-based transactions. Leveraged Deep Learning to enable automatic checkout and billing through Computer Vision models for action recognition and human pose estimation. Contributed to the end-to-end system integration including model training, inference optimization, and pipeline orchestration."
+            certificateLink="https://drive.google.com/file/d/1jUSiVyfU1xepQn3zSSQr6-KzRbpOXQzc/view?usp=drivesdk"
           />
           <ResumeCard
-            title="DevTown Full Stack Web Development"
-            des="Completed DevTown Full Stack Web Development"
-            // result=""
-            // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Machine Learning Intern"
+            subTitle="Suvidhaa Foundation | Jul 2023 - Aug 2024"
+            result="Certificate"
+            des="Developed and implemented a news summarization model using advanced Natural Language Processing tools such as PEGASUS, BERT, and T5, by scraping and summarizing web articles, and utilizing the data for training the model. Improved content accessibility and information processing efficiency through automated summarization techniques."
+            certificateLink="https://drive.google.com/file/d/1mr39oWw7eGZjmJQv0GtQLGt7ll4DpcvS/view"
           />
         </div>
       </div>

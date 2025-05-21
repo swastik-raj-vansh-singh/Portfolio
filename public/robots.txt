@@ -1,3 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
+# Allow all web crawlers
 User-agent: *
-Disallow:
+Allow: /
+
+# Specify the sitemap location if you have one
+# Sitemap: http://yourdomain.com/sitemap.xml

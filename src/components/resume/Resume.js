@@ -14,11 +14,11 @@ const Resume = () => {
   const [experienceData,setExeperiencedata] = useState(false);
   return (
     <section 
-        id='projects'
+        id='resume'
         className = "w-full py-20 border-b-[1px] border-b-black">
         <div className='flex justify-center items-center text-center'>
             <Title 
-                title = "Skills that I have"
+                title = ""
                 des = "My Resume"
             />
         </div>

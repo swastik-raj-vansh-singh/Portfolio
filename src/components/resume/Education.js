@@ -15,14 +15,20 @@ const Education = () => {
           <ResumeCard
             title="BTech in Computer Science and Electronics"
             subTitle="Thapar Institute of Engineering and Technology, Patiala"
-            result="8.4/10"
-            // des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            result="8.59/10"
+            des="Pursuing a comprehensive program covering both computer science fundamentals and electronic systems. Key coursework includes AI/ML, Data Structures & Algorithms, Database Systems, and Full-stack Development. Actively participating in tech clubs and hackathons."
           />
           <ResumeCard
-            title="Schooling "
-            subTitle="BSF Sr Sec School Jammu"
-            result="2009 - 2020"
-            des=""
+            title="Higher Secondary Education"
+            subTitle="BSF Sr Sec School, Jammu"
+            result="95.6%"
+            des="Completed with distinction in Physics, Chemistry, and Mathematics. Received merit scholarship for academic excellence. Participated in national-level science competitions."
+          />
+          <ResumeCard
+            title="Secondary Education"
+            subTitle="BSF Sr Sec School, Jammu"
+            result="92.8%"
+            des="Excelled in STEM subjects with honors. Recognized for outstanding performance in mathematics competitions."
           />
           </div>
         </div>
