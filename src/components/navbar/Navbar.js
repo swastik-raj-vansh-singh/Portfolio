@@ -82,9 +82,7 @@ const Navbar = () => {
                   <h1 className="text-3xl font-bold bg-gradient-to-r from-red-500 to-designColor bg-clip-text text-transparent cursor-pointer">Portfolio</h1>
                 </Link>
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  Hi there hope you are doing good 
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

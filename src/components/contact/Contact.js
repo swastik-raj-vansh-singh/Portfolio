@@ -57,14 +57,14 @@ const Contact = () => {
       )
         .then((result) => {
           console.log(result.text);
-          setSuccessMsg(
-            `Thank you dear ${username}, Your Messages has been sent Successfully!`
-          );
-          setUsername("");
-          setPhoneNumber("");
-          setEmail("");
-          setSubject("");
-          setMessage("");
+      setSuccessMsg( 
+        `Thank you dear ${username}, Your Messages has been sent Successfully!`
+      );
+      setUsername("");
+      setPhoneNumber("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
           setIsSubmitting(false);
         }, (error) => {
           console.log(error.text);
@@ -181,7 +181,7 @@ const Contact = () => {
                     <div>
                       <button onClick={handleSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent' disabled={isSubmitting}>
                         {isSubmitting ? "Sending..." : "Send Message"}
-                      </button>
+                        </button>
                     </div>
                     
                     <input type="hidden" name="recipient_email" value={EMAILJS_CONFIG.RECIPIENT_EMAIL} />
