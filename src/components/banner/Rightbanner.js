@@ -18,7 +18,7 @@ const Rightbanner = () => {
         <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#c4cfde] to-transparent opacity-10 z-0 transform rotate-12 scale-[1.01]"></div>
         
         <motion.img
-          className="w-[300px] h-[420px] md:w-[350px] md:h-[420px] lgl:w-[800px] lgl:h-[400px] rounded-2xl object-cover object-center border-2 border-designColor shadow-[0_0_30px_rgba(255,1,79,0.5)] relative"
+          className="w-[300px] h-[420px] md:w-[350px] md:h-[420px] lgl:w-[750px] lgl:h-[400px] rounded-2xl object-cover object-center border-2 border-designColor shadow-[0_0_30px_rgba(255,1,79,0.5)] relative"
           src={bannerImg}
           alt="bannerImg"
           whileHover={{ scale: 1.03 }}
