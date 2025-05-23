@@ -24,14 +24,17 @@ function App() {
 
   const handleWelcomeComplete = () => {
     setShowWelcome(false);
-    setContentVisible(true);
+    // Add a slight delay before showing content for smoother transition
+    setTimeout(() => {
+      setContentVisible(true);
+    }, 100);
   };
 
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText p-4 relative">
         {showWelcome && <Welcome onComplete={handleWelcomeComplete} />}
         
-        <div className={`transition-opacity duration-700 ${contentVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <div className={`transition-opacity duration-1000 ease-in-out ${contentVisible ? 'opacity-100' : 'opacity-0'}`}>
           <ThreeStarfield />
           <Navbar/>
           <div className="max-w-screen-xl mx-auto relative">

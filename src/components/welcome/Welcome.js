@@ -26,7 +26,7 @@ const Welcome = ({ onComplete }) => {
       <div className="content">
         <div className="text-animation">
           <div className="welcome-text">Welcome</div>
-          <div className="name-text">I'm Shruti</div>
+          <div className="name-text">I'm Swastik</div>
         </div>
         
         <div className="particle-container">
@@ -57,14 +57,6 @@ const Welcome = ({ onComplete }) => {
               }}
             />
           ))}
-        </div>
-
-        <div className="tech-stack">
-          <div className="tech tech-react">React</div>
-          <div className="tech tech-js">JavaScript</div>
-          <div className="tech tech-node">Node.js</div>
-          <div className="tech tech-ml">Machine Learning</div>
-          <div className="tech tech-ai">AI</div>
         </div>
       </div>
     </div>
