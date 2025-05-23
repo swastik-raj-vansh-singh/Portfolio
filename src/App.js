@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
@@ -9,8 +9,12 @@ import Hobbies from "./components/hobbies/Hobbies";
 import Contact from "./components/contact/Contact";
 import ThreeStarfield from "./components/ThreeStarfield";
 import FadeInWhenVisible from "./components/FadeInWhenVisible";
+import Welcome from "./components/welcome/Welcome";
 
 function App() {
+  const [showWelcome, setShowWelcome] = useState(true);
+  const [contentVisible, setContentVisible] = useState(false);
+
   // Make sure body has a relative positioning to help with fixed elements
   useEffect(() => {
     document.body.style.position = "relative";
@@ -18,31 +22,40 @@ function App() {
     document.body.style.backgroundColor = "#000";
   }, []);
 
+  const handleWelcomeComplete = () => {
+    setShowWelcome(false);
+    setContentVisible(true);
+  };
+
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText p-4 relative">
-        <ThreeStarfield />
-        <Navbar/>
-      <div className="max-w-screen-xl mx-auto relative">
-        <Banner/>
-        <FadeInWhenVisible>
-          <Features/>
-        </FadeInWhenVisible>
-        <FadeInWhenVisible>
-          <Projects/>
-        </FadeInWhenVisible>
-        <FadeInWhenVisible>
-          <Resume/>
-        </FadeInWhenVisible>
-        <FadeInWhenVisible>
-          <PhotoLab/>
-        </FadeInWhenVisible>
-        <FadeInWhenVisible>
-          <Hobbies/>
-        </FadeInWhenVisible>
-        <FadeInWhenVisible>
-          <Contact/>
-        </FadeInWhenVisible>
-      </div>
+        {showWelcome && <Welcome onComplete={handleWelcomeComplete} />}
+        
+        <div className={`transition-opacity duration-700 ${contentVisible ? 'opacity-100' : 'opacity-0'}`}>
+          <ThreeStarfield />
+          <Navbar/>
+          <div className="max-w-screen-xl mx-auto relative">
+            <Banner/>
+            <FadeInWhenVisible>
+              <Features/>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
+              <Projects/>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
+              <Resume/>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
+              <PhotoLab/>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
+              <Hobbies/>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
+              <Contact/>
+            </FadeInWhenVisible>
+          </div>
+        </div>
     </div>
   );
 }

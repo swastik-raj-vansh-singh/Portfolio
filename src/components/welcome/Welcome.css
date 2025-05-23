@@ -1,0 +1,240 @@
+/* Main container styling */
+.welcome-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  z-index: 9999;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.welcome-container.fade-out {
+  opacity: 0;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Text animations */
+.text-animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.welcome-text {
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff014f, #4e00ff, #00d9ff);
+  background-size: 300% 300%;
+  animation: gradient 5s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 20px rgba(255, 1, 79, 0.3);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+}
+
+.name-text {
+  font-size: clamp(2rem, 8vw, 5rem);
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUpIn 0.8s ease forwards 0.8s;
+}
+
+@keyframes fadeUpIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Particles animation */
+.particle-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--color);
+  border-radius: 50%;
+  top: var(--y);
+  left: var(--x);
+  animation: particleMove var(--duration) ease-in-out var(--delay) infinite alternate;
+  opacity: 0;
+}
+
+@keyframes particleMove {
+  0% {
+    transform: translate(0, 0) scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(calc(var(--x) - 50%), calc(var(--y) - 50%)) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Circles animation */
+.circles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.circle {
+  position: absolute;
+  border: 2px solid rgba(255, 1, 79, 0.2);
+  border-radius: 50%;
+  animation: circleExpand 4s ease-out infinite;
+  animation-delay: calc(var(--index) * 0.4s);
+}
+
+@keyframes circleExpand {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.8;
+    border-width: 10px;
+  }
+  100% {
+    width: calc(100% - 10%);
+    height: calc(100vw - 10%);
+    opacity: 0;
+    border-width: 1px;
+  }
+}
+
+/* Tech stack animations */
+.tech-stack {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+.tech {
+  font-size: clamp(0.8rem, 3vw, 1.2rem);
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
+  opacity: 0;
+  transform: scale(0.8) translateY(20px);
+  animation: techAppear 0.5s ease forwards;
+  color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.tech-react {
+  background-color: #61dafb;
+  animation-delay: 1.5s;
+}
+
+.tech-js {
+  background-color: #f7df1e;
+  color: #333;
+  animation-delay: 1.7s;
+}
+
+.tech-node {
+  background-color: #3c873a;
+  animation-delay: 1.9s;
+}
+
+.tech-ml {
+  background-color: #4e00ff;
+  animation-delay: 2.1s;
+}
+
+.tech-ai {
+  background-color: #ff014f;
+  animation-delay: 2.3s;
+}
+
+@keyframes techAppear {
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .tech-stack {
+    bottom: 10%;
+  }
+  
+  .tech {
+    padding: 6px 12px;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-text {
+    font-size: clamp(2.5rem, 12vw, 3.5rem);
+  }
+  
+  .name-text {
+    font-size: clamp(1.8rem, 10vw, 2.8rem);
+  }
+  
+  .tech-stack {
+    gap: 8px;
+  }
+  
+  .tech {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+} 
