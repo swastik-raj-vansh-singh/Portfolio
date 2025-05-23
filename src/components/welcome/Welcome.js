@@ -14,7 +14,7 @@ const Welcome = ({ onComplete }) => {
         setShowContent(false);
         if (onComplete) onComplete();
       }, 1000);
-    }, 4500); // Total animation duration before hiding
+    }, 2000); // Total animation duration before hiding (reduced from 4500 to 2000)
 
     return () => clearTimeout(timer);
   }, [onComplete]);

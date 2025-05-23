@@ -7,7 +7,6 @@ import Resume from "./components/resume/Resume";
 import PhotoLab from "./components/photolab/PhotoLab";
 import Hobbies from "./components/hobbies/Hobbies";
 import Contact from "./components/contact/Contact";
-import ThreeStarfield from "./components/ThreeStarfield";
 import FadeInWhenVisible from "./components/FadeInWhenVisible";
 import Welcome from "./components/welcome/Welcome";
 
@@ -19,7 +18,7 @@ function App() {
   useEffect(() => {
     document.body.style.position = "relative";
     document.body.style.minHeight = "100vh";
-    document.body.style.backgroundColor = "#000";
+    document.body.style.backgroundColor = "#212428"; // Set to bodyColor
   }, []);
 
   const handleWelcomeComplete = () => {
@@ -27,15 +26,27 @@ function App() {
     // Add a slight delay before showing content for smoother transition
     setTimeout(() => {
       setContentVisible(true);
-    }, 100);
+    }, 200);
   };
 
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText p-4 relative">
         {showWelcome && <Welcome onComplete={handleWelcomeComplete} />}
         
+        {/* Simple background element */}
+        <div 
+          style={{ 
+            position: 'fixed', 
+            top: 0, 
+            left: 0, 
+            width: '100%', 
+            height: '100%',
+            backgroundColor: '#212428', // bodyColor from tailwind config
+            zIndex: -1 
+          }} 
+        />
+        
         <div className={`transition-opacity duration-1000 ease-in-out ${contentVisible ? 'opacity-100' : 'opacity-0'}`}>
-          <ThreeStarfield />
           <Navbar/>
           <div className="max-w-screen-xl mx-auto relative">
             <Banner/>
