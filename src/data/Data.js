@@ -1,6 +1,6 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe, FaLaptopCode, FaDatabase, FaPython } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+// Removed unused: AiFillAppstore
+// import { AiFillAppstore } from "react-icons/ai";
+import { FaDatabase, FaPython } from "react-icons/fa";
 import { GiArtificialIntelligence } from "react-icons/gi";
 
 // Features Data

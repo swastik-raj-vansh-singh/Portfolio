@@ -22,7 +22,7 @@ const Footer = () => {
               <FaGithub />
             </span>
           </a>
-          <a href='https://drive.google.com/file/d/1ejniDUhnaneSlDC-ekDPBfDNQ2zS77ol/view?usp=drive_link' target='_blank' rel="noopener noreferrer">
+          <a href='https://drive.google.com/file/d/1ElSoGKJ-jGx-6u4q6a19VXgjuUuozsRQ/view?usp=drive_link' target='_blank' rel="noopener noreferrer">
             <span className="bannerIcon hover:text-white hover:bg-red-600 transition-all duration-300 transform hover:scale-110">
               <FaFilePdf />
             </span>

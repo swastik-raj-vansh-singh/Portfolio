@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaFilePdf } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithub, FaFilePdf } from "react-icons/fa";
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -82,7 +82,7 @@ const Navbar = () => {
                   <h1 className="text-3xl font-bold bg-gradient-to-r from-red-500 to-designColor bg-clip-text text-transparent cursor-pointer">Portfolio</h1>
                 </Link>
                 <p className="text-sm text-gray-400 mt-2">
-                  Hi there hope you are doing good 
+                  Thanks for stopping by — hope you're doing great today!
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -125,7 +125,7 @@ const Navbar = () => {
                       <FaGithub />
                     </span>
                   </a>
-                  <a href="https://drive.google.com/file/d/1ejniDUhnaneSlDC-ekDPBfDNQ2zS77ol/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1ElSoGKJ-jGx-6u4q6a19VXgjuUuozsRQ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                     <span className="bannerIcon hover:text-white hover:bg-red-600 transition-all duration-300 transform hover:scale-110">
                       <FaFilePdf />
                     </span>

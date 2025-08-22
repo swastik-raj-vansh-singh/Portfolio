@@ -23,7 +23,7 @@ const Experience = () => {
           />
           <ResumeCard
             title="Machine Learning Intern"
-            subTitle="Nala Green Tech | Aug 2024 - January 2025"
+            subTitle="Ethaa Green Tech | Aug 2024 - January 2025"
             result="Certificate"
             des="Developed a smart, frictionless retail experience designed to reduce environmental impact by minimizing physical infrastructure and paper-based transactions. Leveraged Deep Learning to enable automatic checkout and billing through Computer Vision models for action recognition and human pose estimation. Contributed to the end-to-end system integration including model training, inference optimization, and pipeline orchestration."
             certificateLink="https://drive.google.com/file/d/1jUSiVyfU1xepQn3zSSQr6-KzRbpOXQzc/view?usp=drivesdk"

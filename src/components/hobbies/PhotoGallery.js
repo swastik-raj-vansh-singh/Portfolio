@@ -50,7 +50,7 @@ const PhotoGallery = ({ isOpen, onClose }) => {
               <div className="overflow-hidden cursor-pointer rounded-lg">
                 <img 
                   src={photo} 
-                  alt={`Photo ${index + 1}`} 
+                  alt={`Gallery item ${index + 1}`} 
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500 ease-in-out" 
                 />
               </div>
@@ -74,7 +74,7 @@ const PhotoGallery = ({ isOpen, onClose }) => {
           >
             <img 
               src={selectedImage} 
-              alt="Selected photo" 
+              alt="Selected view" 
               className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-[0_0_30px_rgba(255,1,79,0.3)]" 
             />
             <button 
@@ -90,4 +90,4 @@ const PhotoGallery = ({ isOpen, onClose }) => {
   );
 };
 
-export default PhotoGallery; 
+export default PhotoGallery;

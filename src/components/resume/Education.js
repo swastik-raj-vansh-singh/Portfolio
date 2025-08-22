@@ -15,7 +15,7 @@ const Education = () => {
           <ResumeCard
             title="BTech in Computer Science and Electronics"
             subTitle="Thapar Institute of Engineering and Technology, Patiala"
-            result="8.59/10"
+            result="8.71/10"
             des="Pursuing a comprehensive program covering both computer science fundamentals and electronic systems. Key coursework includes AI/ML, Data Structures & Algorithms, Database Systems, and Full-stack Development. Actively participating in tech clubs and hackathons."
           />
           <ResumeCard

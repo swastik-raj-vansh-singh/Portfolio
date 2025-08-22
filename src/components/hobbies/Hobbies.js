@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../layouts/Title';
 import HobbyCard from './HobbyCard';
-import { motion } from 'framer-motion';
+// removed: import { motion } from 'framer-motion';
 import FadeInWhenVisible from '../FadeInWhenVisible';
 import { FaCamera, FaPaintBrush, FaFootballBall, FaDumbbell } from 'react-icons/fa';
 import { GiBoxingGlove } from 'react-icons/gi';
@@ -69,4 +69,4 @@ const Hobbies = () => {
   );
 }
 
-export default Hobbies; 
+export default Hobbies;

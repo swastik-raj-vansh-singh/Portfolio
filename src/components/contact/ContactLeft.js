@@ -34,7 +34,7 @@ const ContactLeft = () => {
               <BsGithub />
             </span>
             </a>
-            <a href='https://drive.google.com/file/d/1dcNvV0yk_90Oh3gwKuP8yTpQximpQiCk/view'><span className='bannerIcon'>
+            <a href='https://drive.google.com/file/d/1ElSoGKJ-jGx-6u4q6a19VXgjuUuozsRQ/view?usp=drive_link'><span className='bannerIcon'>
               <FaLinkedinIn />
             </span>
             </a>

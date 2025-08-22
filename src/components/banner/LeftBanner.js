@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {FaLinkedinIn, FaPython } from "react-icons/fa";
-import { SiTensorflow, SiPytorch, SiScikitlearn, SiJupyter } from "react-icons/si";
+import { SiTensorflow, SiScikitlearn } from "react-icons/si";
 import { BsGithub} from "react-icons/bs";
 import { FaFileCode } from "react-icons/fa";
 import { TbBrandOpenai } from "react-icons/tb";
@@ -51,7 +51,7 @@ const LeftBanner = () => {
               <BsGithub />
             </span>
             </a>
-            <a href='https://drive.google.com/file/d/1ejniDUhnaneSlDC-ekDPBfDNQ2zS77ol/view?usp=drive_link'><span className='bannerIcon'>
+            <a href='https://drive.google.com/file/d/1ElSoGKJ-jGx-6u4q6a19VXgjuUuozsRQ/view?usp=drive_link'><span className='bannerIcon'>
               <FaFileCode />
             </span>
             </a>
