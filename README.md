@@ -50,4 +50,4 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For any inquiries, please reach out via the contact form on the website or email me directly at [your-email@example.com].
+For any inquiries, please reach out via the contact form on the website or email me directly at swastikrajvanshsingh0@gmail.com.
